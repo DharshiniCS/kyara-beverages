@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kyara Beverages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <!--- navigation-->
+  <div class="text-4xl font-semibold text-red-600 px-6 left-0 mb-2"><span>Kyara</span></div>
+  <!-- Top Right Navigation Bar -->
+<nav class="absolute top-4 right-4 flex space-x-6 px-6 mb-2">
+  <a href="#about" class="text-gray-800 hover:text-red-600 font-medium">About us</a>
+  <a href="#products" class="text-gray-800 hover:text-red-600 font-medium">Products</a>
+  <a href="#contact" class="text-gray-800 hover:text-red-600 font-medium">Contact</a>
+</nav>
+<!-- Hero Section -->
+  <header class="bg-cover bg-center h-[70vh] flex flex-col justify-center items-center text-white " style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZo3PDugjbpaBAouZFUaoarUK2YAVHUlIC1w&s');">
+    <img src="images\bg.jpg" alt="Kyara Logo" class="w-35 h-35 mb-10 rounded shadow-lg border-4 border-red-500 rounded opacity-85 rounded-full" />
+    <h1 class="text-6xl font-bold font-[Open_Sans] opacity-85">Refreshment , Reimagined</h1>
+  </header> 
+  <!-- About Section -->
+  <section class="py-4 text-center bg-red-100 ">
+    <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+    <p class="max-w-xl mx-auto mb-10">At Kyara Beverages, we believe in crafting drinks that not only quench your thirst but elevate your senses. Our mission is to redefine refreshment through innovation and natural ingredients.</p>
+  </section>
+
+  <!-- Product Teasers -->
+  <section class="p-6 bg-red-600">
+    <h2 class="text-2xl font-semibold text-center mb-6 text-white">Our Drinks</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-white p-4 rounded shadow">
+        <img src="images\drink1.jpg" alt="Drink 1" class="w-full h-48 object-cover rounded" />
+        <h3 class="mt-2 text-lg font-bold">Citrus Spark</h3>
+        <p>A zesty burst of lemon and lime.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="images\drink2.jpg" alt="Drink 2" class="w-full h-48 object-cover rounded border-gray" />
+        <h3 class="mt-2 text-lg font-bold">Berry Boost</h3>
+        <p>Packed with antioxidants and flavor.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="images\drink3.jpg" alt="Drink 3" class="w-full h-48 object-cover rounded" />
+        <h3 class="mt-2 text-lg font-bold">Mint Mist</h3>
+        <p>Cool and refreshing herbal notes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="p-6 max-w-xl mx-auto">
+    <h2 class="text-2xl font-semibold text-center mb-4">Contact Us</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full border p-2 rounded" />
+      <input type="email" placeholder="Email" class="w-full border p-2 rounded" />
+      <textarea placeholder="Message" class="w-full border p-2 rounded h-32"></textarea>
+      <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded">Send</button>
+    </form>
+  </section>
+
+  <footer class="text-center p-4 text-sm text-gray-500 mt-6">
+    © 2025 Kyara Beverages · <a href="mailto:careers@kyarabeverages.in" class="text-blue-500 underline">careers@kyarabeverages.in</a>
+  </footer>
+
+</body>
+</html>
