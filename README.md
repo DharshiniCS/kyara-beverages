@@ -2,7 +2,7 @@
 # Kyara Beverages Website
 
 ## 🔗 Live Preview
-[Click here]()
+[Click here](https://dharshinics.github.io/kyara-beverages/)
 
 ## 📁 How to Run Locally
 1. Download ZIP or clone the repo.
